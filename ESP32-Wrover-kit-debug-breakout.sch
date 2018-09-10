@@ -39,9 +39,9 @@ $EndComp
 Text Label 4600 2250 2    50   ~ 0
 CH_Enable
 Text Label 4600 2350 2    50   ~ 0
-TDX0
+TDX
 Text Label 4600 2450 2    50   ~ 0
-RDX0
+RDX
 Text Label 5100 2550 0    50   ~ 0
 MTMS
 Text Label 5100 2350 0    50   ~ 0
@@ -85,9 +85,9 @@ MTCK
 Text Notes 1550 850  0    50   ~ 0
 Place J101, J102, J103, J104, J105 on bottom
 Text Label 3000 1600 2    50   ~ 0
-TDX0
+TDX
 Text Label 3000 1500 2    50   ~ 0
-RDX0
+RDX
 Wire Notes Line
 	1000 900  3900 900 
 Wire Notes Line
