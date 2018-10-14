@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:ESP32-Wrover-kit-debug-breakout-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -62,13 +63,13 @@ F 3 "" H 3000 1700 50  0001 C CNN
 	1    3000 1700
 	0    1    1    0   
 $EndComp
-Text Label 3000 3000 2    50   ~ 0
+Text Label 3500 3000 0    50   ~ 0
 MTMS
-Text Label 3000 3200 2    50   ~ 0
+Text Label 3500 3200 0    50   ~ 0
 MTDI
-Text Label 3000 3100 2    50   ~ 0
+Text Label 3500 3100 0    50   ~ 0
 MTDO
-Text Label 3000 3300 2    50   ~ 0
+Text Label 3500 3300 0    50   ~ 0
 MTCK
 Text Notes 1550 850  0    50   ~ 0
 Place J101, J102, J103, J104, J105 on bottom
@@ -141,7 +142,7 @@ NoConn ~ 3000 3500
 NoConn ~ 3000 3400
 NoConn ~ 3500 3400
 NoConn ~ 3500 3500
-Text Label 3000 2900 2    50   ~ 0
+Text Label 3500 2900 0    50   ~ 0
 CH_Enable
 NoConn ~ 4600 2550
 $Comp
@@ -180,4 +181,9 @@ F 3 "~" H 3200 3200 50  0001 C CNN
 	1    3200 3200
 	1    0    0    -1  
 $EndComp
+NoConn ~ 3000 3300
+NoConn ~ 3000 3200
+NoConn ~ 3000 3100
+NoConn ~ 3000 3000
+NoConn ~ 3000 2900
 $EndSCHEMATC
