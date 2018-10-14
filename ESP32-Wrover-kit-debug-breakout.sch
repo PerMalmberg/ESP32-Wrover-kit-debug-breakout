@@ -142,7 +142,7 @@ NoConn ~ 3000 3500
 NoConn ~ 3000 3400
 NoConn ~ 3500 3400
 NoConn ~ 3500 3500
-Text Label 3500 2900 0    50   ~ 0
+Text Label 3000 2900 2    50   ~ 0
 CH_Enable
 NoConn ~ 4600 2550
 $Comp
@@ -185,5 +185,6 @@ NoConn ~ 3000 3300
 NoConn ~ 3000 3200
 NoConn ~ 3000 3100
 NoConn ~ 3000 3000
-NoConn ~ 3000 2900
+NoConn ~ 3500 2900
+NoConn ~ 1850 2650
 $EndSCHEMATC
