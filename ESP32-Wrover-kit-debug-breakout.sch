@@ -187,4 +187,15 @@ NoConn ~ 3000 3100
 NoConn ~ 3000 3000
 NoConn ~ 3500 2900
 NoConn ~ 1850 2650
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO?
+U 1 1 5BF0F1BE
+P 6150 1150
+F 0 "#LOGO?" H 6150 1425 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 6150 925 50  0001 C CNN
+F 2 "" H 6150 1150 50  0001 C CNN
+F 3 "~" H 6150 1150 50  0001 C CNN
+	1    6150 1150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
